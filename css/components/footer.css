@@ -79,7 +79,6 @@ h6 {
 @import url("https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600;700&family=Raleway:wght@400;600;900&display=swap");
 
 body {
-  /* font-family: "Raleway", sans-serif; */
 }
 .wrapper {
   min-height: 100%;
@@ -91,7 +90,6 @@ body {
   flex: 1 1 auto;
 }
 .container {
-  /* width: 100%; */
   max-width: 1090px;
   margin: 0px auto;
 }
@@ -164,7 +162,6 @@ body {
 .footer-posts__row {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
 }
 .footer-posts__post {
 }
