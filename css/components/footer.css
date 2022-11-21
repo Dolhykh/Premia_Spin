@@ -1,0 +1,220 @@
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+/*---------------------------*/
+
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600;700&family=Raleway:wght@400;600;900&display=swap");
+
+body {
+  /* font-family: "Raleway", sans-serif; */
+}
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1 1 auto;
+}
+.container {
+  /* width: 100%; */
+  max-width: 1090px;
+  margin: 0px auto;
+}
+/* footer */
+
+.footer {
+  height: 372px;
+  background-color: #35383d;
+  color: #ffffff;
+  padding: 64px 0 15px 0;
+}
+.footer__row {
+  display: flex;
+}
+.footer__title {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 27.5px;
+  margin: 0 0 34px 0;
+}
+
+/* footer__locations */
+
+.footer__locations {
+  flex: 0 1 50%;
+}
+.footer-locations {
+}
+.footer-locations__title {
+}
+.footer-locations__row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 0 -40px;
+}
+.footer-locations__location {
+  flex: 0 1 50%;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-location {
+  padding: 0 40px 0 40px;
+  margin: 0 0 49px 0;
+}
+.footer-location__title {
+  font-family: "Assistant", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 19.64px;
+}
+.footer-location__text {
+  font-family: "Assistant", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 19.64px;
+}
+
+/* footer__posts */
+
+.footer__posts {
+  flex: 0 1 25%;
+  display: flex;
+  flex-direction: column;
+}
+.footer-posts {
+}
+.footer-posts__title {
+}
+.footer-posts__row {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+.footer-posts__post {
+}
+.footer-post {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-post__image {
+}
+.footer-post__body {
+}
+.footer-post__date {
+  font-family: "Assistant", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18.66px;
+}
+.footer-post__title {
+  font-family: "Assistant", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18.66px;
+}
+
+/* footer__social */
+
+.footer__social {
+  flex: 0 1 25%;
+}
+.footer-social {
+}
+.footer-social__title {
+}
+.footer-social__row {
+  display: flex;
+  flex-direction: column;
+}
+.footer-social__fb {
+}
+.footer-social__in {
+}
+.footer-social__yt {
+}
+.footer-social__logo {
+}
+
+/* footer__copyright */
+
+.footer__copyright {
+  background-color: #212121;
+  height: 44px;
+  font-family: "Assistant";
+}
